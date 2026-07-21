@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.first{
+    height: 100vh;
+    width: 100%;
+    background-image: url(MATERIALS/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    height: 50px;
+    width: 250px;
+    background-image: url(MATERIALS/logo\ main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+.links a{
+     margin-right: 30px;
+     font-size: 25px;
+     color: black;
+     text-decoration: none;
+
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.icons{
+    margin-right: 30px;
+}
+.icons .bx{
+    margin-right: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.products{ 
+    background-color: lightblue;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    box-shadow: 0 0 14px black;
+    height: 50vh;
+    width: 30vw;
+    margin-right: 40px;
+    background-image: url(MATERIALS/new.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.season{
+    box-shadow: 0 0 14px black;
+    height: 50vh;
+    width: 30vw;
+    background-image: url(MATERIALS/season.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.new h2 {
+     position: relative;
+     top: 40%;
+     left: 60%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.season h2{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.new p{
+    position: relative;
+     top: 40%;
+     left: 60%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.season p{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text1{
+    height: 10vh;
+    width: 100%;
+
+}
+.text1 h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.items{
+    background-color: lightblue;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.shirts{
+    
+     height: 60vh;
+     width: 80%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.item1{
+    box-shadow: 0 0 14px black;
+    height: 55vh;
+    width: 20%;
+}
+.shirt1{
+    height: 45vh;
+    width: 100%;
+    background-image: url(MATERIALS/shirt1.png);
+    background-size: cover;
+    background-position: center;
+}
+.name{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name p{
+    
+   border: 2px solid black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item2{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt2{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/shirt2.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item3{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt3{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/shirt3.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item4{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt4{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/shirt6.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.items{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.shirts{
+     height: 60vh;
+     width: 80%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.item5{
+    box-shadow: 0 0 14px black;
+    height: 55vh;
+    width: 20%;
+}
+.shirt5{
+    height: 45vh;
+    width: 100%;
+    background-image: url(MATERIALS/girl3.png);
+    background-size: cover;
+    background-position: center;
+}
+.name{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name p{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item6{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt6{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/girl4.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item7{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt7{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/girl5\,png.webp);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item8{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt8{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/girl6.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.items{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.shirts{
+     height: 60vh;
+     width: 80%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.item9{
+    box-shadow: 0 0 14px black;
+    height: 55vh;
+    width: 20%;
+}
+.shirt9{
+    height: 45vh;
+    width: 100%;
+    background-image: url(MATERIALS/jean1\,png.webp);
+    background-size: cover;
+    background-position: center;
+}
+.name{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name p{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item10{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt10{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/jean2.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item11{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt11{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/jean3.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.shirts{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item12{
+    box-shadow: 0 0 14px black;
+   height: 55vh;
+   width: 20%;
+}
+.shirt12{
+   height: 45vh;
+   width: 100%;
+   background-image: url(MATERIALS/jean4.png);
+   background-size: cover;
+   background-position: center;
+}
+.name{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price{
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head{
+    height: 70vh;
+    width: 100%;
+    background-image: url(MATERIALS/image2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.head h1{
+    margin-left: 200px;
+    font-size: 100px;
+}
+.head button{
+    margin-left: 200px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.section{
+    background-color: lightblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.extra{
+   
+   height: 80vh;
+   width: 80%;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+.extra1{
+    box-shadow: 0 0 14px black;
+    height: 70vh;
+    width: 45%;
+    background-image: url(MATERIALS/polo1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+.extra1 button{
+    height: 40px;
+    width: 200px;
+    display: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: transparent;
+    
+}
+.extra1:hover button{
+     display: inline;
+}
+.extra3 button{
+    
+    height: 40px;
+    width: 200px;
+    display: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: transparent;
+    
+}
+.extra3:hover button{
+     display: inline;
+}
+.extra5 button{
+    height: 40px;
+    width: 200px;
+    display: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: transparent;
+    
+}
+.extra5:hover button{
+     display: inline;
+}
+.extra6 button{
+    height: 40px;
+    width: 200px;
+    display: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: transparent;
+    
+}
+.extra6:hover button{
+     display: inline;
+}
+.extra2{
+    height: 70vh;
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.extra3{
+    box-shadow: 0 0 14px black;
+    height: 40vh;
+    width: 100%;
+    background-image: url(MATERIALS/girl1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+
+}
+.extra4{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.extra5{
+    box-shadow: 0 0 14px black;
+    height: 28vh;
+    width: 48%;
+    background-image: url(MATERIALS/top1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+.extra6{
+    box-shadow: 0 0 14px black;
+    height: 28vh;
+    width: 48%;
+    background-image: url(MATERIALS/belt1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+.footer{
+    background-color: lightgray;
+    height: 40vh;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.customer{
+   
+    height: 40vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.customer a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+
+}
+.company{
+    height: 40vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.follow{
+    height: 20vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tick{
+    height: 5vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow .bx{
+    font-size: 30px;
+}
